@@ -1,5 +1,7 @@
 import random
 
+def my_function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z):
+    print("Hello, World!")
 
 def main():
     # Generate a random number between 1 and 10
