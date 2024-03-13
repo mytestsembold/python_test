@@ -14,5 +14,12 @@ def main():
     else:
         print("Sorry, you guessed incorrectly.")
 
+    # Prompt the user to play again
+    play_again = input("Do you want to play again? (y/n) ")
+    if play_again.lower() == "y":
+        main()
+    else:
+        print("Goodbye!")
+
 if __name__ == "__main__":
     main()
