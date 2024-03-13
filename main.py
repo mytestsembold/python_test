@@ -11,13 +11,6 @@ def main():
     else:
         print("The random number is odd.")
 
-    # Check if the random number is greater than 5
-    if random_number > 5:
-        print("The random number is greater than 5.")
-    else:
-        print("The random number is less than or equal to 5.")
-
-
 
 
 if __name__ == "__main__":
