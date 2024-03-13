@@ -29,6 +29,12 @@ def main():
     else:
         print("The random number is not a multiple of 3.")
 
+    # Check if the random number is a multiple of 5
+    if random_number % 5 == 0:
+        print("The random number is a multiple of 5.")
+    else:
+        print("The random number is not a multiple of 5.")
+
 
 if __name__ == "__main__":
     main()
