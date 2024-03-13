@@ -23,23 +23,6 @@ def main():
     else:
         print("The random number is not between 3 and 7.")
 
-    # Check if the random number is a multiple of 3
-    if random_number % 3 == 0:
-        print("The random number is a multiple of 3.")
-    else:
-        print("The random number is not a multiple of 3.")
-
-    # Check if the random number is a multiple of 5
-    if random_number % 5 == 0:
-        print("The random number is a multiple of 5.")
-    else:
-        print("The random number is not a multiple of 5.")
-
-    # Check if the random number is a multiple of 3 and 5
-    if random_number % 15 == 0:
-        print("The random number is a multiple of 3 and 5.")
-    else:
-        print("The random number is not a multiple of 3 and 5.")
 
 
 if __name__ == "__main__":
