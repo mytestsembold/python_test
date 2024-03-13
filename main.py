@@ -17,11 +17,6 @@ def main():
     else:
         print("The random number is less than or equal to 5.")
 
-    # Check if the random number is between 3 and 7
-    if random_number >= 3 and random_number <= 7:
-        print("The random number is between 3 and 7.")
-    else:
-        print("The random number is not between 3 and 7.")
 
 
 
